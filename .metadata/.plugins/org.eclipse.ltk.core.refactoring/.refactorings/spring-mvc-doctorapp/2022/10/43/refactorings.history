@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Doctor.java&apos; to &apos;spring-doctorapp-all/src/main/java/com.doctorapp.model&apos;&#x0D;&#x0A;- Original project: &apos;spring-mvc-doctorapp&apos;&#x0D;&#x0A;- Destination element: &apos;spring-doctorapp-all/src/main/java/com.doctorapp.model&apos;&#x0D;&#x0A;- Original element: &apos;Doctor.java&apos;" description="Copy file" destination="=spring-doctorapp-all/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.doctorapp.model" element1="src/main/java/com/doctorapp/model/Doctor.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1666326455438" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,22 @@
+version: "3"
+services:
+  book-rest-api: # name of the container
+    depends_on:
+      - vectorsql
+    image: babadharubai/newrepo:book-api
+    networks:
+      - my-bridge-network
+    ports:
+      - "8090:8080"
+    build: .
+      
+  vectorsql: 
+    image: mysql:8
+    networks:
+      - my-bridge-network
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=trainingdb
+
+networks:
+  my-bridge-network: 

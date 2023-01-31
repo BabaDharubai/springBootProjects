@@ -1,0 +1,439 @@
+2022-12-06 21:37:32,613 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringRestjpaBookappApplication using Java 17.0.4.1 on Fakruddin with PID 6916 (C:\Users\BabaFakruddinDharuba\training\SpringBootDemos\spring-restjpa-bookapp\target\classes started by BabaFakruddinDharuba in C:\Users\BabaFakruddinDharuba\training\SpringBootDemos\spring-restjpa-bookapp)
+2022-12-06 21:37:32,617 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.12, Spring v5.3.23
+2022-12-06 21:37:32,617 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-12-06 21:37:32,687 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-06 21:37:32,687 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-06 21:37:33,841 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-06 21:37:33,944 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 78 ms. Found 1 JPA repository interfaces.
+2022-12-06 21:37:34,838 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9000 (http)
+2022-12-06 21:37:34,852 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-9000"]
+2022-12-06 21:37:34,853 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-12-06 21:37:34,853 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-06 21:37:34,954 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-12-06 21:37:34,955 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2267 ms
+2022-12-06 21:37:35,221 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-06 21:37:35,325 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-12-06 21:37:35,700 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-06 21:37:35,871 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-12-06 21:37:36,580 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-12-06 21:37:36,611 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-12-06 21:37:37,572 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-06 21:37:37,715 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 21:37:38,421 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-06 21:37:38,968 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-12-06 21:37:38,985 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-9000"]
+2022-12-06 21:37:39,014 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9000 (http) with context path ''
+2022-12-06 21:37:39,023 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringRestjpaBookappApplication in 7.336 seconds (JVM running for 9.222)
+2022-12-06 21:38:31,151 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-12-06 21:38:31,185 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Pausing ProtocolHandler ["http-nio-9000"]
+2022-12-06 21:38:31,186 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Stopping service [Tomcat]
+2022-12-06 21:38:31,191 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Stopping ProtocolHandler ["http-nio-9000"]
+2022-12-06 21:38:31,192 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Destroying ProtocolHandler ["http-nio-9000"]
+2022-12-06 21:38:31,195 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 21:38:31,203 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2022-12-06 21:38:31,214 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2022-12-06 21:38:31,319 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringRestjpaBookappApplication using Java 17.0.4.1 on Fakruddin with PID 6916 (C:\Users\BabaFakruddinDharuba\training\SpringBootDemos\spring-restjpa-bookapp\target\classes started by BabaFakruddinDharuba in C:\Users\BabaFakruddinDharuba\training\SpringBootDemos\spring-restjpa-bookapp)
+2022-12-06 21:38:31,320 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.12, Spring v5.3.23
+2022-12-06 21:38:31,320 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-12-06 21:38:31,586 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-06 21:38:31,600 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+2022-12-06 21:38:31,688 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9000 (http)
+2022-12-06 21:38:31,689 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-9000"]
+2022-12-06 21:38:31,689 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-12-06 21:38:31,690 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-06 21:38:31,719 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-12-06 21:38:31,719 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 396 ms
+2022-12-06 21:38:31,761 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-06 21:38:31,767 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2022-12-06 21:38:31,784 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2022-12-06 21:38:31,784 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-12-06 21:38:31,820 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-06 21:38:31,825 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 21:38:31,987 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-06 21:38:32,070 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-12-06 21:38:32,079 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-9000"]
+2022-12-06 21:38:32,083 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9000 (http) with context path ''
+2022-12-06 21:38:32,086 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringRestjpaBookappApplication in 0.814 seconds (JVM running for 62.285)
+2022-12-06 21:38:32,089 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-12-06 21:38:33,524 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2022-12-06 21:38:33,558 INFO org.apache.juli.logging.DirectJDKLog [Thread-7] Pausing ProtocolHandler ["http-nio-9000"]
+2022-12-06 21:38:33,559 INFO org.apache.juli.logging.DirectJDKLog [Thread-7] Stopping service [Tomcat]
+2022-12-06 21:38:33,563 INFO org.apache.juli.logging.DirectJDKLog [Thread-7] Stopping ProtocolHandler ["http-nio-9000"]
+2022-12-06 21:38:33,565 INFO org.apache.juli.logging.DirectJDKLog [Thread-7] Destroying ProtocolHandler ["http-nio-9000"]
+2022-12-06 21:38:33,567 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-7] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 21:38:33,568 INFO com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown initiated...
+2022-12-06 21:38:33,575 INFO com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown completed.
+2022-12-06 21:38:33,660 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringRestjpaBookappApplication using Java 17.0.4.1 on Fakruddin with PID 6916 (C:\Users\BabaFakruddinDharuba\training\SpringBootDemos\spring-restjpa-bookapp\target\classes started by BabaFakruddinDharuba in C:\Users\BabaFakruddinDharuba\training\SpringBootDemos\spring-restjpa-bookapp)
+2022-12-06 21:38:33,660 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.12, Spring v5.3.23
+2022-12-06 21:38:33,660 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-12-06 21:38:33,826 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-06 21:38:33,837 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+2022-12-06 21:38:33,903 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9000 (http)
+2022-12-06 21:38:33,904 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-9000"]
+2022-12-06 21:38:33,906 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-12-06 21:38:33,906 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-06 21:38:33,932 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-12-06 21:38:33,932 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 269 ms
+2022-12-06 21:38:33,961 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-06 21:38:33,967 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2022-12-06 21:38:33,980 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2022-12-06 21:38:33,981 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-12-06 21:38:34,016 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-06 21:38:34,019 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 21:38:34,167 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-06 21:38:34,252 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-12-06 21:38:34,260 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-9000"]
+2022-12-06 21:38:34,264 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9000 (http) with context path ''
+2022-12-06 21:38:34,267 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringRestjpaBookappApplication in 0.646 seconds (JVM running for 64.466)
+2022-12-06 21:38:34,269 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-12-06 21:38:45,334 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(4)-127.0.0.1] Application shutdown requested.
+2022-12-06 21:38:45,351 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Pausing ProtocolHandler ["http-nio-9000"]
+2022-12-06 21:38:45,351 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Stopping service [Tomcat]
+2022-12-06 21:38:45,354 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Stopping ProtocolHandler ["http-nio-9000"]
+2022-12-06 21:38:45,356 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Destroying ProtocolHandler ["http-nio-9000"]
+2022-12-06 21:38:45,357 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(4)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 21:38:45,358 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-3 - Shutdown initiated...
+2022-12-06 21:38:45,362 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-3 - Shutdown completed.
+2022-12-06 21:39:12,295 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringRestjpaBookappApplication using Java 17.0.4.1 on Fakruddin with PID 20024 (C:\Users\BabaFakruddinDharuba\training\SpringBootDemos\spring-restjpa-bookapp\target\classes started by BabaFakruddinDharuba in C:\Users\BabaFakruddinDharuba\training\SpringBootDemos\spring-restjpa-bookapp)
+2022-12-06 21:39:12,296 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.12, Spring v5.3.23
+2022-12-06 21:39:12,297 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-12-06 21:39:12,372 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-06 21:39:12,373 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-06 21:39:13,086 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-06 21:39:13,143 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+2022-12-06 21:39:13,901 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-12-06 21:39:13,910 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-12-06 21:39:13,911 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-12-06 21:39:13,911 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-06 21:39:13,994 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-12-06 21:39:13,995 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1621 ms
+2022-12-06 21:39:14,182 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-06 21:39:14,233 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-12-06 21:39:14,401 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-06 21:39:14,509 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-12-06 21:39:14,872 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-12-06 21:39:14,891 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-12-06 21:39:15,567 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-06 21:39:15,674 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 21:39:16,154 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-06 21:39:16,486 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-12-06 21:39:16,501 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-12-06 21:39:16,524 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-06 21:39:16,532 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringRestjpaBookappApplication in 4.858 seconds (JVM running for 5.97)
+2022-12-06 21:59:16,732 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-06 21:59:16,733 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-12-06 21:59:16,738 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2022-12-06 22:00:53,507 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-6] Showing all books
+2022-12-06 22:00:53,548 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-6] inside get all method book
+2022-12-06 22:03:12,347 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-12-06 22:03:12,372 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Pausing ProtocolHandler ["http-nio-8080"]
+2022-12-06 22:03:12,372 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Stopping service [Tomcat]
+2022-12-06 22:03:12,374 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-06 22:03:12,377 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Stopping ProtocolHandler ["http-nio-8080"]
+2022-12-06 22:03:12,379 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Destroying ProtocolHandler ["http-nio-8080"]
+2022-12-06 22:03:12,381 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 22:03:12,384 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2022-12-06 22:03:12,392 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2022-12-06 22:03:12,485 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringRestjpaBookappApplication using Java 17.0.4.1 on Fakruddin with PID 20024 (C:\Users\BabaFakruddinDharuba\training\SpringBootDemos\spring-restjpa-bookapp\target\classes started by BabaFakruddinDharuba in C:\Users\BabaFakruddinDharuba\training\SpringBootDemos\spring-restjpa-bookapp)
+2022-12-06 22:03:12,485 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.12, Spring v5.3.23
+2022-12-06 22:03:12,485 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-12-06 22:03:12,665 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-06 22:03:12,676 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+2022-12-06 22:03:12,759 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-12-06 22:03:12,759 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-12-06 22:03:12,759 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-12-06 22:03:12,759 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-06 22:03:12,785 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-12-06 22:03:12,785 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 297 ms
+2022-12-06 22:03:12,819 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-06 22:03:12,825 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2022-12-06 22:03:12,839 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2022-12-06 22:03:12,839 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-12-06 22:03:12,874 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-06 22:03:12,880 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 22:03:13,049 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-06 22:03:13,155 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-12-06 22:03:13,163 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-12-06 22:03:13,167 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-06 22:03:13,171 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringRestjpaBookappApplication in 0.731 seconds (JVM running for 1442.609)
+2022-12-06 22:03:13,172 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-12-06 22:03:15,349 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(27)-127.0.0.1] Application shutdown requested.
+2022-12-06 22:03:15,367 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(27)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8080"]
+2022-12-06 22:03:15,368 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(27)-127.0.0.1] Stopping service [Tomcat]
+2022-12-06 22:03:15,371 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(27)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2022-12-06 22:03:15,373 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(27)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8080"]
+2022-12-06 22:03:15,375 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(27)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 22:03:15,376 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(27)-127.0.0.1] HikariPool-2 - Shutdown initiated...
+2022-12-06 22:03:15,382 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(27)-127.0.0.1] HikariPool-2 - Shutdown completed.
+2022-12-06 22:03:20,270 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringRestjpaBookappApplication using Java 17.0.4.1 on Fakruddin with PID 22352 (C:\Users\BabaFakruddinDharuba\training\SpringBootDemos\spring-restjpa-bookapp\target\classes started by BabaFakruddinDharuba in C:\Users\BabaFakruddinDharuba\training\SpringBootDemos\spring-restjpa-bookapp)
+2022-12-06 22:03:20,272 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.12, Spring v5.3.23
+2022-12-06 22:03:20,273 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-12-06 22:03:20,349 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-06 22:03:20,350 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-06 22:03:21,151 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-06 22:03:21,239 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interfaces.
+2022-12-06 22:03:21,911 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-12-06 22:03:21,920 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-12-06 22:03:21,920 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-12-06 22:03:21,921 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-06 22:03:22,007 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-12-06 22:03:22,008 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1657 ms
+2022-12-06 22:03:22,196 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-06 22:03:22,248 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-12-06 22:03:22,426 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-06 22:03:22,540 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-12-06 22:03:22,952 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-12-06 22:03:22,970 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-12-06 22:03:23,670 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-06 22:03:23,799 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 22:03:24,362 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-06 22:03:24,740 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-12-06 22:03:24,757 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-12-06 22:03:24,780 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-06 22:03:24,789 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringRestjpaBookappApplication in 5.149 seconds (JVM running for 6.088)
+2022-12-06 22:03:33,794 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-06 22:03:33,795 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-12-06 22:03:33,795 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2022-12-06 22:03:33,822 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-1] Showing all books
+2022-12-06 22:03:33,841 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-1] inside get all method book
+2022-12-06 22:04:54,420 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-12-06 22:04:54,450 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Pausing ProtocolHandler ["http-nio-8080"]
+2022-12-06 22:04:54,451 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Stopping service [Tomcat]
+2022-12-06 22:04:54,453 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-06 22:04:54,458 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Stopping ProtocolHandler ["http-nio-8080"]
+2022-12-06 22:04:54,462 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Destroying ProtocolHandler ["http-nio-8080"]
+2022-12-06 22:04:54,465 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 22:04:54,470 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2022-12-06 22:04:54,479 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2022-12-06 22:04:54,567 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringRestjpaBookappApplication using Java 17.0.4.1 on Fakruddin with PID 22352 (C:\Users\BabaFakruddinDharuba\training\SpringBootDemos\spring-restjpa-bookapp\target\classes started by BabaFakruddinDharuba in C:\Users\BabaFakruddinDharuba\training\SpringBootDemos\spring-restjpa-bookapp)
+2022-12-06 22:04:54,567 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.12, Spring v5.3.23
+2022-12-06 22:04:54,568 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-12-06 22:04:54,744 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-06 22:04:54,757 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2022-12-06 22:04:54,826 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-12-06 22:04:54,827 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-12-06 22:04:54,827 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-12-06 22:04:54,827 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-06 22:04:54,853 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-12-06 22:04:54,853 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 283 ms
+2022-12-06 22:04:54,884 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-06 22:04:54,889 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2022-12-06 22:04:54,903 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2022-12-06 22:04:54,905 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-12-06 22:04:54,942 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-06 22:04:54,946 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 22:04:55,096 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-06 22:04:55,182 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-12-06 22:04:55,189 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-12-06 22:04:55,193 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-06 22:04:55,196 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringRestjpaBookappApplication in 0.668 seconds (JVM running for 96.496)
+2022-12-06 22:04:55,198 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-12-06 22:05:20,563 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-12-06 22:05:20,590 INFO org.apache.juli.logging.DirectJDKLog [Thread-7] Pausing ProtocolHandler ["http-nio-8080"]
+2022-12-06 22:05:20,591 INFO org.apache.juli.logging.DirectJDKLog [Thread-7] Stopping service [Tomcat]
+2022-12-06 22:05:20,595 INFO org.apache.juli.logging.DirectJDKLog [Thread-7] Stopping ProtocolHandler ["http-nio-8080"]
+2022-12-06 22:05:20,597 INFO org.apache.juli.logging.DirectJDKLog [Thread-7] Destroying ProtocolHandler ["http-nio-8080"]
+2022-12-06 22:05:20,599 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-7] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 22:05:20,601 INFO com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown initiated...
+2022-12-06 22:05:20,607 INFO com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown completed.
+2022-12-06 22:05:20,703 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringRestjpaBookappApplication using Java 17.0.4.1 on Fakruddin with PID 22352 (C:\Users\BabaFakruddinDharuba\training\SpringBootDemos\spring-restjpa-bookapp\target\classes started by BabaFakruddinDharuba in C:\Users\BabaFakruddinDharuba\training\SpringBootDemos\spring-restjpa-bookapp)
+2022-12-06 22:05:20,704 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.12, Spring v5.3.23
+2022-12-06 22:05:20,704 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-12-06 22:05:20,900 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-06 22:05:20,913 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2022-12-06 22:05:20,984 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-12-06 22:05:20,985 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-12-06 22:05:20,985 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-12-06 22:05:20,986 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-06 22:05:21,012 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-12-06 22:05:21,012 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 306 ms
+2022-12-06 22:05:21,044 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-06 22:05:21,050 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2022-12-06 22:05:21,063 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2022-12-06 22:05:21,064 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-12-06 22:05:21,103 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-06 22:05:21,105 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 22:05:21,244 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-06 22:05:21,332 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-12-06 22:05:21,339 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-12-06 22:05:21,342 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-06 22:05:21,347 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringRestjpaBookappApplication in 0.682 seconds (JVM running for 122.646)
+2022-12-06 22:05:21,347 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-12-06 22:05:25,466 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-06 22:05:25,468 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-12-06 22:05:25,471 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2022-12-06 22:05:25,478 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-1] Showing all books
+2022-12-06 22:05:25,492 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-1] inside get all method book
+2022-12-06 22:06:32,633 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-3] Showing all books
+2022-12-06 22:06:32,634 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-3] inside get all method book
+2022-12-06 22:07:25,881 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-4] Showing all books
+2022-12-06 22:07:25,882 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-4] inside get all method book
+2022-12-06 22:07:29,269 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-5] Showing all books
+2022-12-06 22:07:29,270 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-5] inside get all method book
+2022-12-06 22:07:33,409 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-6] Showing all books
+2022-12-06 22:07:33,410 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-6] inside get all method book
+2022-12-06 22:07:43,825 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-7] Showing all books
+2022-12-06 22:07:43,827 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-7] inside get all method book
+2022-12-06 22:24:10,561 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-9] Showing all books
+2022-12-06 22:24:10,562 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-9] inside get all method book
+2022-12-06 22:28:19,591 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-1] Showing all books
+2022-12-06 22:28:19,592 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-1] inside get all method book
+2022-12-06 22:28:25,229 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-2] Showing all books
+2022-12-06 22:28:25,231 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-2] inside get all method book
+2022-12-06 22:28:37,754 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-3] Showing all books
+2022-12-06 22:28:37,756 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-3] inside get all method book
+2022-12-06 22:29:10,627 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-4] Showing all books
+2022-12-06 22:29:10,629 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-4] inside get all method book
+2022-12-06 22:29:12,555 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-5] Showing all books
+2022-12-06 22:29:12,556 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-5] inside get all method book
+2022-12-06 22:29:53,525 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-6] Showing all books
+2022-12-06 22:29:53,527 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-6] inside get all method book
+2022-12-06 22:29:55,577 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-7] Showing all books
+2022-12-06 22:29:55,579 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-7] inside get all method book
+2022-12-06 22:30:00,459 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-8] Showing all books
+2022-12-06 22:30:00,460 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-8] inside get all method book
+2022-12-06 22:30:02,650 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-9] Showing all books
+2022-12-06 22:30:02,652 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-9] inside get all method book
+2022-12-06 22:33:42,871 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-1] Showing all books
+2022-12-06 22:33:42,874 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-1] inside get all method book
+2022-12-06 22:57:51,588 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-3] Showing all books
+2022-12-06 22:57:51,591 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-3] inside get all method book
+2022-12-06 22:57:53,482 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-4] Showing all books
+2022-12-06 22:57:53,483 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-4] inside get all method book
+2022-12-06 22:57:55,307 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-5] Showing all books
+2022-12-06 22:57:55,309 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-5] inside get all method book
+2022-12-06 22:57:58,474 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-6] Showing all books
+2022-12-06 22:57:58,476 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-6] inside get all method book
+2022-12-06 23:03:04,075 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-8] Showing all books
+2022-12-06 23:03:04,078 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-8] inside get all method book
+2022-12-06 23:03:14,942 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-9] Showing all books
+2022-12-06 23:03:14,945 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-9] inside get all method book
+2022-12-06 23:03:19,563 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-10] Showing all books
+2022-12-06 23:03:19,565 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-10] inside get all method book
+2022-12-06 23:03:27,253 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-1] Showing all books
+2022-12-06 23:03:27,255 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-1] inside get all method book
+2022-12-06 23:03:56,831 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-2] Showing all books
+2022-12-06 23:03:56,833 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-2] inside get all method book
+2022-12-06 23:04:06,181 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-3] Showing all books
+2022-12-06 23:04:06,183 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-3] inside get all method book
+2022-12-06 23:04:18,925 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-4] Showing all books
+2022-12-06 23:04:18,926 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-4] inside get all method book
+2022-12-06 23:04:32,138 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-5] Showing all books
+2022-12-06 23:04:32,140 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-5] inside get all method book
+2022-12-06 23:05:14,679 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-6] Showing all books
+2022-12-06 23:05:14,682 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-6] inside get all method book
+2022-12-06 23:07:28,588 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-8] Showing all books
+2022-12-06 23:07:28,590 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-8] inside get all method book
+2022-12-06 23:07:43,213 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-9] Showing all books
+2022-12-06 23:07:43,216 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-9] inside get all method book
+2022-12-06 23:10:52,276 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-1] Showing all books
+2022-12-06 23:10:52,277 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-1] inside get all method book
+2022-12-06 23:11:02,262 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-2] Showing all books
+2022-12-06 23:11:02,262 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-2] inside get all method book
+2022-12-06 23:11:05,485 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-3] Showing all books
+2022-12-06 23:11:05,486 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-3] inside get all method book
+2022-12-06 23:11:37,191 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-4] Showing all books
+2022-12-06 23:11:37,192 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-4] inside get all method book
+2022-12-06 23:11:38,055 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-5] Showing all books
+2022-12-06 23:11:38,057 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-5] inside get all method book
+2022-12-06 23:11:41,631 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-6] Showing all books
+2022-12-06 23:11:41,632 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-6] inside get all method book
+2022-12-06 23:11:47,645 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-7] Showing all books
+2022-12-06 23:11:47,647 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-7] inside get all method book
+2022-12-06 23:16:13,626 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-9] Showing all books
+2022-12-06 23:16:13,627 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-9] inside get all method book
+2022-12-06 23:16:16,474 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-10] Showing all books
+2022-12-06 23:16:16,476 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-10] inside get all method book
+2022-12-06 23:16:19,546 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-1] Showing all books
+2022-12-06 23:16:19,547 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-1] inside get all method book
+2022-12-06 23:16:23,135 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-2] Showing all books
+2022-12-06 23:16:23,136 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-2] inside get all method book
+2022-12-06 23:16:34,695 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-3] Showing all books
+2022-12-06 23:16:34,696 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-3] inside get all method book
+2022-12-06 23:16:37,892 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-4] Showing all books
+2022-12-06 23:16:37,893 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-4] inside get all method book
+2022-12-06 23:16:45,429 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-5] Showing all books
+2022-12-06 23:16:45,429 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-5] inside get all method book
+2022-12-06 23:16:48,462 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-6] Showing all books
+2022-12-06 23:16:48,462 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-6] inside get all method book
+2022-12-06 23:16:54,858 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-7] Showing all books
+2022-12-06 23:16:54,859 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-7] inside get all method book
+2022-12-06 23:16:56,346 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-8] Showing all books
+2022-12-06 23:16:56,346 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-8] inside get all method book
+2022-12-06 23:17:09,965 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-9] Showing all books
+2022-12-06 23:17:09,965 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-9] inside get all method book
+2022-12-06 23:17:41,924 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-10] Showing all books
+2022-12-06 23:17:41,925 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-10] inside get all method book
+2022-12-06 23:17:45,207 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-1] Showing all books
+2022-12-06 23:17:45,207 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-1] inside get all method book
+2022-12-06 23:20:57,538 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-3] Showing all books
+2022-12-06 23:20:57,540 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-3] inside get all method book
+2022-12-06 23:21:03,896 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-4] Showing all books
+2022-12-06 23:21:03,898 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-4] inside get all method book
+2022-12-06 23:21:22,647 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-5] Showing all books
+2022-12-06 23:21:22,648 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-5] inside get all method book
+2022-12-06 23:25:34,354 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-7] Showing all books
+2022-12-06 23:25:34,355 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-7] inside get all method book
+2022-12-06 23:25:37,547 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-8] Showing all books
+2022-12-06 23:25:37,547 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-8] inside get all method book
+2022-12-06 23:26:38,513 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-10] Showing all books
+2022-12-06 23:26:38,514 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-10] inside get all method book
+2022-12-06 23:26:43,875 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-1] Showing all books
+2022-12-06 23:26:43,877 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-1] inside get all method book
+2022-12-06 23:27:31,183 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-3] Showing all books
+2022-12-06 23:27:31,183 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-3] inside get all method book
+2022-12-06 23:27:54,663 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-7] Showing all books
+2022-12-06 23:27:54,665 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-7] inside get all method book
+2022-12-06 23:27:58,023 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-9] Showing all books
+2022-12-06 23:27:58,025 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-9] inside get all method book
+2022-12-06 23:28:23,502 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-2] Showing all books
+2022-12-06 23:28:23,504 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-2] inside get all method book
+2022-12-06 23:28:48,985 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-5] Showing all books
+2022-12-06 23:28:48,987 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-5] inside get all method book
+2022-12-06 23:29:01,848 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-7] Showing all books
+2022-12-06 23:29:01,849 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-7] inside get all method book
+2022-12-06 23:29:16,193 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-9] Showing all books
+2022-12-06 23:29:16,194 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-9] inside get all method book
+2022-12-06 23:35:17,513 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-3] Showing all books
+2022-12-06 23:35:17,515 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-3] inside get all method book
+2022-12-06 23:35:22,037 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-5] Showing all books
+2022-12-06 23:35:22,038 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-5] inside get all method book
+2022-12-06 23:35:24,549 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-7] Showing all books
+2022-12-06 23:35:24,550 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-7] inside get all method book
+2022-12-06 23:37:05,892 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-9] Showing all books
+2022-12-06 23:37:05,893 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-9] inside get all method book
+2022-12-06 23:39:20,473 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-3] Showing all books
+2022-12-06 23:39:20,473 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-3] inside get all method book
+2022-12-06 23:40:40,748 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-12-06 23:40:53,234 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-12-06 23:41:03,400 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-8] Showing all books
+2022-12-06 23:41:03,401 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-8] inside get all method book
+2022-12-06 23:41:39,155 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-1] Showing all books
+2022-12-06 23:41:39,156 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-1] inside get all method book
+2022-12-06 23:42:20,313 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-4] Showing all books
+2022-12-06 23:42:20,314 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-4] inside get all method book
+2022-12-06 23:45:16,858 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-7] Showing all books
+2022-12-06 23:45:16,860 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-7] inside get all method book
+2022-12-06 23:45:40,083 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-2] Showing all books
+2022-12-06 23:45:40,085 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-2] inside get all method book
+2022-12-06 23:45:43,849 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-4] Showing all books
+2022-12-06 23:45:43,851 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-4] inside get all method book
+2022-12-06 23:45:46,222 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-6] Showing all books
+2022-12-06 23:45:46,224 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-6] inside get all method book
+2022-12-06 23:46:17,232 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-9] Showing all books
+2022-12-06 23:46:17,233 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-9] inside get all method book
+2022-12-06 23:46:30,731 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-10] Showing all books
+2022-12-06 23:46:30,731 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-10] inside get all method book
+2022-12-06 23:46:37,422 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-1] Showing all books
+2022-12-06 23:46:37,422 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-1] inside get all method book
+2022-12-06 23:47:54,163 INFO com.bookapp.controllers.BookResponseController [http-nio-8080-exec-4] Showing all books
+2022-12-06 23:47:54,164 INFO com.bookapp.service.BookServiceImpl [http-nio-8080-exec-4] inside get all method book
+2022-12-06 23:48:22,065 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(107)-127.0.0.1] Application shutdown requested.
+2022-12-06 23:48:22,096 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(107)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8080"]
+2022-12-06 23:48:22,097 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(107)-127.0.0.1] Stopping service [Tomcat]
+2022-12-06 23:48:22,098 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(107)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-06 23:48:22,104 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(107)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2022-12-06 23:48:22,107 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(107)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8080"]
+2022-12-06 23:48:22,111 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(107)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 23:48:22,115 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(107)-127.0.0.1] HikariPool-3 - Shutdown initiated...
+2022-12-06 23:48:22,121 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(107)-127.0.0.1] HikariPool-3 - Shutdown completed.

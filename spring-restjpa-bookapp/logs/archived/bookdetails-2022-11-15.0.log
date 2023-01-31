@@ -1,0 +1,40 @@
+2022-11-15 12:02:26,829 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringRestjpaBookappApplication using Java 17.0.4.1 on Fakruddin with PID 22568 (C:\Users\BabaFakruddinDharuba\training\SpringBootDemos\spring-restjpa-bookapp\target\classes started by BabaFakruddinDharuba in C:\Users\BabaFakruddinDharuba\training\SpringBootDemos\spring-restjpa-bookapp)
+2022-11-15 12:02:26,841 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.12, Spring v5.3.23
+2022-11-15 12:02:26,844 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-15 12:02:27,063 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-15 12:02:27,064 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-15 12:02:29,560 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-15 12:02:29,790 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 194 ms. Found 1 JPA repository interfaces.
+2022-11-15 12:02:32,187 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9000 (http)
+2022-11-15 12:02:32,230 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-9000"]
+2022-11-15 12:02:32,232 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-11-15 12:02:32,233 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-15 12:02:32,598 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-15 12:02:32,599 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 5532 ms
+2022-11-15 12:02:33,456 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-15 12:02:33,831 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-11-15 12:02:34,711 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-15 12:02:35,329 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-11-15 12:02:36,691 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-11-15 12:02:36,776 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-11-15 12:02:39,350 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-15 12:02:39,767 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 12:02:41,735 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-15 12:02:43,004 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-11-15 12:02:43,103 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-9000"]
+2022-11-15 12:02:43,231 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9000 (http) with context path ''
+2022-11-15 12:02:43,286 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringRestjpaBookappApplication in 18.337 seconds (JVM running for 21.633)
+2022-11-15 12:04:35,601 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9000-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-15 12:04:35,603 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9000-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-11-15 12:04:35,605 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9000-exec-2] Completed initialization in 2 ms
+2022-11-15 12:05:08,749 INFO com.bookapp.controllers.BookResponseController [http-nio-9000-exec-4] Showing all books
+2022-11-15 12:05:08,827 INFO com.bookapp.service.BookServiceImpl [http-nio-9000-exec-4] inside get all method book
+2022-11-15 12:05:24,472 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(5)-127.0.0.1] Application shutdown requested.
+2022-11-15 12:05:24,520 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(5)-127.0.0.1] Pausing ProtocolHandler ["http-nio-9000"]
+2022-11-15 12:05:24,522 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(5)-127.0.0.1] Stopping service [Tomcat]
+2022-11-15 12:05:24,526 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(5)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-15 12:05:24,540 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(5)-127.0.0.1] Stopping ProtocolHandler ["http-nio-9000"]
+2022-11-15 12:05:24,549 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(5)-127.0.0.1] Destroying ProtocolHandler ["http-nio-9000"]
+2022-11-15 12:05:24,560 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(5)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 12:05:24,572 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(5)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-11-15 12:05:24,602 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(5)-127.0.0.1] HikariPool-1 - Shutdown completed.

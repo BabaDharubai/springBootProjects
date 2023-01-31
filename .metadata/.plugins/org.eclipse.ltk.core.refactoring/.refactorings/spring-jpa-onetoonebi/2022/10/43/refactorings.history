@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.studentapp.repo.IAdderessRepository&apos; to &apos;IAddressRepository&apos;&#x0D;&#x0A;- Original project: &apos;spring-jpa-onetoonebi&apos;&#x0D;&#x0A;- Original element: &apos;com.studentapp.repo.IAdderessRepository&apos;&#x0D;&#x0A;- Renamed element: &apos;com.studentapp.repo.IAddressRepository&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;IAdderessRepository&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.studentapp.repo{IAdderessRepository.java[IAdderessRepository" matchStrategy="1" name="IAddressRepository" qualified="false" references="true" similarDeclarations="false" stamp="1666157045352" textual="false" version="1.0"/>
+</session>

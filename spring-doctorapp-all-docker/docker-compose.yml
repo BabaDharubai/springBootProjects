@@ -1,0 +1,22 @@
+version: "3"
+services: 
+  doctorcontainer:
+    depends_on:
+      - doctorsql
+    image: babadharubai/doctorrepo:doctorapi
+    networks:
+      - doctor-bridge
+    ports:
+      - "8091:8080"
+      
+  doctorsql:
+    image: mysql:8
+    networks:
+      - doctor-bridge
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=doctorall
+      
+networks:
+  doctor-bridge:
+  
